@@ -11,11 +11,26 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var polinom = new Polinom(1, 3, -5, 20, 6.6, -76, 7, 78);
-            var polinom2 = new Polinom(1, 3, -5, 20, 6.5, -76, 7, 78);
-            Console.WriteLine(polinom.GetHashCode());
-            Console.WriteLine(polinom2.GetHashCode());
+            var polinom = new Polinom(1, 1, -5, 20, 6.6, -76, 7, 738);
+            var polinom2 = new Polinom(1, 3, -5, 19, 6.5, -76, 57, 78);
 
+
+            Console.WriteLine(polinom.ToString());
+            Console.WriteLine(polinom2.ToString());
+            Console.WriteLine("=========================================================");
+            var pol = polinom - polinom2;
+
+            Console.WriteLine(pol.ToString());
+            Console.WriteLine(polinom.ToString());
+            Console.WriteLine(polinom2.ToString());
+
+
+            Console.WriteLine("=========================================================");
+
+            var pol2 = polinom + polinom2;
+            Console.WriteLine(polinom.ToString());
+            Console.WriteLine(polinom2.ToString());
+            Console.WriteLine(pol2.ToString());
 
             Console.ReadLine();
 

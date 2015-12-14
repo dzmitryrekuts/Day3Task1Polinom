@@ -67,7 +67,7 @@ namespace PolinomNS
 
             for (int i = 0; i < this.polinomArray.Length; i++)
             {
-                temp += polinomArray[i].GetHashCode()*i;
+                temp += polinomArray[i].GetHashCode() * i;
             }
 
             return temp ^ (this.polinomArray.Length * CONST);
@@ -135,20 +135,27 @@ namespace PolinomNS
 
             if (polinom1.polinomArray.Length >= polinom2.polinomArray.Length)
             {
-                resultArray = polinom1.polinomArray;
+                resultArray = new double[polinom1.polinomArray.Length];
+
                 for (int i = 0; i < polinom2.polinomArray.Length; i++)
                 {
-                    resultArray[i] += polinom2.polinomArray[i];
+                    resultArray[i] = polinom1.polinomArray[i] + polinom2.polinomArray[i];
                 }
             }
             else
             {
-                resultArray = polinom2.polinomArray;
+                resultArray = new double[polinom2.polinomArray.Length];
+
                 for (int i = 0; i < polinom1.polinomArray.Length; i++)
                 {
-                    resultArray[i] += polinom1.polinomArray[i];
+                    resultArray[i] = polinom1.polinomArray[i] - polinom2.polinomArray[i];
+                }
+                for (int i = polinom1.polinomArray.Length; i < polinom2.polinomArray.Length; i++)
+                {
+                    resultArray[i] = 0 + polinom2.polinomArray[i];
                 }
             }
+
 
             return new Polinom(resultArray);
 
@@ -157,25 +164,32 @@ namespace PolinomNS
         public static Polinom operator -(Polinom polinom1, Polinom polinom2)
         {
 
-            double[] resultArray = { };
+            double[] resultArray;
 
             if (polinom1.polinomArray.Length >= polinom2.polinomArray.Length)
             {
-                resultArray = polinom1.polinomArray;
+                resultArray = new double[polinom1.polinomArray.Length];
+
                 for (int i = 0; i < polinom2.polinomArray.Length; i++)
                 {
-                    resultArray[i] -= polinom2.polinomArray[i];
+                    resultArray[i] = polinom1.polinomArray[i] - polinom2.polinomArray[i];
                 }
             }
-            if (polinom1.polinomArray.Length < polinom2.polinomArray.Length)
+            else
             {
-                resultArray = polinom2.polinomArray;
+                resultArray = new double[polinom2.polinomArray.Length];
+
                 for (int i = 0; i < polinom1.polinomArray.Length; i++)
                 {
-                    resultArray[i] -= polinom1.polinomArray[i];
+                    resultArray[i] = polinom1.polinomArray[i] - polinom2.polinomArray[i];
+                }
+                for (int i = polinom1.polinomArray.Length; i < polinom2.polinomArray.Length; i++)
+                {
+                    resultArray[i] = 0 - polinom2.polinomArray[i];
                 }
             }
 
+           
             return new Polinom(resultArray);
 
         }
