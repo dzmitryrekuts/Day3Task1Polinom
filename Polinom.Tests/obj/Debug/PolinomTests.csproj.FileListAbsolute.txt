@@ -1,0 +1,13 @@
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\Polinom.Tests.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\Polinom.Tests.pdb
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\nunit.core.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\nunit.core.interfaces.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\nunit.framework.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\nunit.util.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\Polinom.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\Polinom.pdb
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\bin\Debug\nunit.framework.xml
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\obj\Debug\PolinomTests.csprojResolveAssemblyReference.cache
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\obj\Debug\Polinom.Tests.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\Polinom.Tests\obj\Debug\Polinom.Tests.pdb

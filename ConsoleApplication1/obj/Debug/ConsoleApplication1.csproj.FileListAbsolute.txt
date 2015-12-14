@@ -1,0 +1,8 @@
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\bin\Debug\Polinom.dll
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\bin\Debug\Polinom.pdb
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\dzmitry_rekuts\documents\visual studio 2015\Projects\Day3PolinomSolution\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
