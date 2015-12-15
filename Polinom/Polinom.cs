@@ -195,50 +195,39 @@ namespace PolinomNS
         }
 
         //Not ready
-        public static Polinom operator *(Polinom polinom1, Polinom polinom2)
+        /*public static Polinom operator *(Polinom polinom1, Polinom polinom2)
         {
 
             double[] resultArray;
 
-            if (polinom1.polinomArray.Length >= polinom2.polinomArray.Length)
+            return new Polinom(resultArray);
+
+        }*/
+
+        public Polinom Addition(Polinom polinom)
+        {
+            double[] resultArray;
+
+            if (this.polinomArray.Length >= polinom.polinomArray.Length)
             {
-                resultArray = polinom1.polinomArray;
-                for (int i = 0; i < polinom2.polinomArray.Length; i++)
+                resultArray = new double[this.polinomArray.Length];
+
+                for (int i = 0; i < polinom.polinomArray.Length; i++)
                 {
-                    resultArray[i] *= polinom2.polinomArray[i];
+                    resultArray[i] = this.polinomArray[i] + polinom.polinomArray[i];
                 }
             }
             else
             {
-                resultArray = polinom2.polinomArray;
-                for (int i = 0; i < polinom1.polinomArray.Length; i++)
-                {
-                    resultArray[i] *= polinom1.polinomArray[i];
-                }
-            }
+                resultArray = new double[polinom.polinomArray.Length];
 
-            return new Polinom(resultArray);
-
-        }
-
-        public Polinom Addition(Polinom polinom)
-        {
-            double[] resultArray = { };
-
-            if (this.polinomArray.Length >= polinom.polinomArray.Length)
-            {
-                resultArray = this.polinomArray;
-                for (int i = 0; i < polinom.polinomArray.Length; i++)
-                {
-                    resultArray[i] += polinom.polinomArray[i];
-                }
-            }
-            if (this.polinomArray.Length < polinom.polinomArray.Length)
-            {
-                resultArray = polinom.polinomArray;
                 for (int i = 0; i < this.polinomArray.Length; i++)
                 {
-                    resultArray[i] += this.polinomArray[i];
+                    resultArray[i] = this.polinomArray[i] - polinom.polinomArray[i];
+                }
+                for (int i = this.polinomArray.Length; i < polinom.polinomArray.Length; i++)
+                {
+                    resultArray[i] = 0 + polinom.polinomArray[i];
                 }
             }
 
